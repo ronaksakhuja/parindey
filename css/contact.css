@@ -1,0 +1,222 @@
+@font-face {
+        font-family: myfont;
+        src: url("Sibylle DEMO.otf");}
+
+    @font-face {
+        font-family: myfont1;
+        src: url("Sanseriffic.otf");}
+
+        @font-face {
+        font-family: myfont3;
+        src: url("newfont1.ttf");}
+
+
+      .navbar-nav {
+        float: left;
+        margin: 10px;
+        font-size: 16px;}
+
+    .navbar {
+        z-index: 9;
+        position: absolute!important;}
+
+    .logo {
+         width: 21%;
+         position: relative;}
+
+    .navbar-brand {
+          float: right;
+          height: 43px;
+          padding: 24px 15px 0px 30px;
+          font-size: 18px;
+          line-height: 20px;}
+
+          
+    .navbar-nav>li>a {
+            margin-top: 39px;
+            margin-left: 12px;
+            font-size: 25px;
+            color: white;font-family: 'myfont' !important;}
+
+    .nav>li>a:hover {
+            background-color: #000000;
+            color: white;}
+
+    .social {
+        width: 42px;
+        margin-top: 42px;
+        margin-right: 0px;}
+
+    .team_main_image {
+        width: 97.7%;
+        position: relative;}
+
+    .icon {
+    width: 100px;
+    padding: 15px;}
+
+    .HEAD {
+    font-family: myfont;
+    font-size: 28px;
+    letter-spacing: 1px;}
+
+    .mainhead {
+    background-image: url(bdesign.png);
+    background-size: 219px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8px;
+    font-family: myfont;
+    font-size: 39px;}
+
+    .textt {
+    font-family: myfont3;
+    font-size: 18px;}
+
+   #contact .card:hover i,#contact .card:hover h4{
+	     color: #87d37c;}
+
+       footer {
+        background-color: rgba(44, 62, 80, 1.0);
+        width: 100%;
+        bottom: 0;
+        font-weight: lighter;
+        color: white;}
+   .footerHeader{
+        width:100%;
+        padding:1em;
+        background-color:rgba(52, 73, 94,1.0);
+        text-align:center;
+        color:white;}
+
+       footer h3{
+          font-weight:lighter;font-family: myfont;}
+    
+      footer ul{
+          padding-left:5px;
+          list-style:none;}
+    
+      footer p{
+          text-align : justify;
+          font-size : 12px;}
+    
+      footer iframe {
+          width:100%;
+          position:relative;
+          height:170px;}
+
+      .sm{
+          list-style:none;
+          overflow:auto;}
+
+      .sm li {
+          display: inline;
+          padding:5px;
+          float:left;}
+          
+           
+      .sm li a img {
+          width:32px;}
+
+
+          form_main {
+    width: 100%;
+}
+.form_main h4 {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.heading {
+    border-bottom: 1px solid #fcab0e;
+    padding-bottom: 9px;
+    position: relative;
+}
+.heading span {
+    background: #9e6600 none repeat scroll 0 0;
+    bottom: -2px;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 75px;
+}   
+.form {
+    border-radius: 7px;
+    padding: 6px;
+}
+.txt[type="text"] {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt_3[type="text"] {
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 100%;
+}
+.txt2[type="submit"] {
+    background: #242424 none repeat scroll 0 0;
+    border: 1px solid #4f5c04;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 35px;
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    width: 18%;
+}
+.txt2:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #5793ef;
+    transition: all 0.5s ease 0s;
+}
+
+@media(max-width:640px){
+  
+  .txt2[type="submit"] {
+    width: 36%;}
+
+    .logo {
+    width: 19% important;
+    position: absolute !important;
+    background-color: #ffffffed;}
+
+    .navbar-nav>li>a {
+    margin-top: 3px;
+    margin-left: -8px;
+    font-size: 15px;
+    color: white;
+    font-family: 'myfont' !important;
+    padding: 11px;}
+
+    .nav>li>a {
+    position: relative;
+    padding: 0px 0px;}
+
+    .navbar-nav {
+    /* float: left; */
+    margin: 85.5px -15px !important;
+    font-size: 0px;
+    background-color: black;
+    display: inline-flex;}
+
+    .navbar-nav {
+    margin: 85.5px -15px;}
+
+    .social {
+    display: none;}
+
+    .mainhead {
+    margin-top: 5pc;}
+
+}
+
+
+
+</style>

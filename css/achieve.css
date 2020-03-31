@@ -1,0 +1,192 @@
+
+@font-face {
+        font-family: myfont;
+        src: url("Sibylle DEMO.otf");}
+
+    @font-face {
+        font-family: myfont1;
+        src: url("Sanseriffic.otf");}
+
+        @font-face {
+        font-family: myfont2;
+        src: url("newfont.ttf");}
+        
+        @font-face {
+        font-family: myfont3;
+        src: url("newfont1.ttf");}
+footer {
+        background-color: rgba(44, 62, 80, 1.0);
+        width: 100%;
+        bottom: 0;
+        font-weight: lighter;
+        color: white;}
+   .footerHeader{
+        width:100%;
+        padding:1em;
+        background-color:rgba(52, 73, 94,1.0);
+        text-align:center;
+        color:white;}
+      footer h3{
+          font-weight:lighter;font-family: myfont;
+      }
+      footer ul{
+          padding-left:5px;
+          list-style:none;
+      }
+      footer p{
+          text-align : justify;
+          font-size : 12px;
+      }
+      footer iframe {
+          width:100%;
+          position:relative;
+          height:170px;
+      }
+      .sm{
+          list-style:none;
+          overflow:auto;
+      }
+      .sm li {
+          display: inline;
+          padding:5px;
+          float:left;
+      } 
+      .sm li a img {
+          width:32px;
+      }  
+
+
+
+li {
+         list-style: none;}
+
+    .navbar-nav {
+        float: left;
+        margin: 10px;
+        font-size: 16px;}
+
+    .logo {
+         width: 21%;
+         position: relative;}
+
+    .navbar-brand {
+          float: right;
+          height: 43px;
+          padding: 24px 15px 0px 30px;
+          font-size: 18px;
+          line-height: 20px;}
+
+    .navbar{
+        position: absolute !important;
+        z-index: 9;}
+
+
+
+    .navbar-nav>li>a {
+            margin-top: 39px;
+            margin-left: 12px;
+            font-size: 25px;
+            color: white;}
+
+    .nav>li>a:hover {
+       background-color: #000000;
+       color: white;}
+.social {
+        width: 42px;
+        margin-top: 42px;
+        margin-right: 0px;}
+
+        .navbar-nav>li>a,.sec-head,.para_head,.head_back,.video.text {
+            font-family: 'myfont' !important;}
+.team_main_image {
+        width: 99.7%;
+        position: relative;}
+
+.Heading{
+    padding: 32px;
+    font-family: myfont;
+    font-size: 32px;}
+
+.image_cont {
+    padding: 38px;}
+
+.head1 {
+    font-family: myfont2;
+    font-size: 24px;
+    letter-spacing: 3px;}
+
+.head2 {
+    font-family: myfont3;
+    font-size: 18px;}
+
+.first {
+    padding: 15px;}
+
+.Heading{
+      font-family: "myfont";
+      font-size: 32px;
+      background-image: url(bdesign.png)!important;
+      background-size: 64%;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 13px;}
+
+
+      @media(max-width:640px){
+
+        .Heading {
+          font-size: 24px;
+          background-size: 100%;
+          padding: 18px;}
+
+        .head2 {
+          padding: 20px;}
+
+
+@media(max-width:640px){
+  .logo {
+    width: 19%!important;
+    position: absolute !important;
+    background-color: #ffffffed;}
+
+    .navbar-nav>li>a {
+    margin-top: 3px;
+    margin-left: -8px;
+    font-size: 15px;
+    color: white;
+    font-family: 'myfont' !important;
+    padding: 11px;}
+
+    .nav>li>a {
+    position: relative;
+    padding: 0px 0px;}
+
+    .navbar-nav {
+    /* float: left; */
+    margin: 85.5px -15px !important;
+    font-size: 0px;
+    background-color: black;
+    display: inline-flex;}
+
+    .navbar-nav {
+    margin: 85.5px -15px;}
+
+    .social {
+    display: none;}
+
+    .about_us, .about1 {
+    background-size: 100% !important;
+    margin-top: 5pc !important;}
+
+    .Head_t {
+    background-size: 105%;font-size: 24px;
+    margin-top: 5pc;}
+
+    .Heading {
+          font-size: 24px;
+          background-size: 100%;
+          padding: 18px;    margin-top: 2pc;}
+
+    .head2 {
+          padding: 20px;}
+  }
